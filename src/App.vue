@@ -2,7 +2,9 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <hr/>
-    <p>Default</p>
+    <p>Default with maxlength</p>
+    <input maxlength="5"/>
+    <p>Grapheme</p>
     <grapheme-input @onInput="onInput"></grapheme-input>
     <p>Maxlength:5</p>
     <grapheme-input maxlength="5"></grapheme-input>
