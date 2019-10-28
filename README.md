@@ -19,6 +19,20 @@ Thus, this component packed grapheme-splitter and u can use "maxlength" on it na
 
 The result will be exactly what we expect and there's no difference between all browsers.
 
+## Usage
+
+```
+npm -i --save vue-grapheme-input
+```
+
+Then just import to your .vue file and use it in template directly
+
+```
+import VueGraphemeInput from "vue-grapheme-input";
+
+<vue-grapheme-input maxlength="3" />
+```
+
 ## Note
 
 The component can only use on Vue 2.4.0+ becuase of the "inheritAttrs" option.
