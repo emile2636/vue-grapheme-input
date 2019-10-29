@@ -1,6 +1,8 @@
 {
   "name": "vue-grapheme-input",
-  "version": "0.1.1",
+  "author": "emile2636",
+  "email" : "emile2636@gmail.com",
+  "version": "0.1.2",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -40,5 +42,13 @@
     "src/components/*",
     "*.json",
     "*.js"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emile2636/vue-grapheme-input.git"  
+  },
+  "bugs": {
+    "url": "https://github.com/emile2636/vue-grapheme-input/issues"
+  },
+  "license": "MIT"
 }

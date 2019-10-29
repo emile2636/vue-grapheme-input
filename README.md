@@ -22,23 +22,3 @@ The result will be exactly what we expect and there's no difference between all 
 ## Note
 
 The component can only use on Vue 2.4.0+ becuase of the "inheritAttrs" option.
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your unit tests
-```
-npm run test:unit
-```
